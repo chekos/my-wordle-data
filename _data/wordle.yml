@@ -1,1 +1,39 @@
-
+totalPlayed: 1
+totalWon: 1
+totalWonPercent: "100"
+streakCurrent: 1
+streakMax: 1
+distribution:
+  1: 0
+  2: 0
+  3: 0
+  4: 0
+  5: 1
+  6: 0
+  X: 0
+distributionPercent:
+  1: 0
+  2: 0
+  3: 0
+  4: 0
+  5: 100
+  6: 0
+  X: 0
+games:
+  - number: 273
+    score: 5
+    won: true
+    board:
+      - "🟩⬛🟨⬛⬛"
+      - "🟩⬛🟨⬛⬛"
+      - "⬛⬛⬛⬛⬛"
+      - "🟩🟩🟩🟩⬛"
+      - "🟩🟩🟩🟩🟩"
+    boardWords:
+      - "yes no almost no no"
+      - "yes no almost no no"
+      - "no no no no no"
+      - "yes yes yes yes no"
+      - "yes yes yes yes yes"
+    altText: "The player won the game in 5 guesses."
+    date: "2022-03-19"
