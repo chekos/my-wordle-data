@@ -3,6 +3,7 @@ name: Wordle
 on:
   issues:
     types: opened
+  workflow_dispatch:
 
 jobs:
   update_library:
