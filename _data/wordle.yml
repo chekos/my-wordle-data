@@ -1,21 +1,21 @@
-totalPlayed: 2
-totalWon: 2
+totalPlayed: 3
+totalWon: 3
 totalWonPercent: "100"
-streakCurrent: 2
-streakMax: 2
+streakCurrent: 3
+streakMax: 3
 distribution:
   1: 0
   2: 0
   3: 0
   4: 1
-  5: 1
+  5: 2
   6: 0
   X: 0
 distributionPercent:
   1: 0
   2: 0
   3: 0
-  4: 100
+  4: 50
   5: 100
   6: 0
   X: 0
@@ -52,3 +52,20 @@ games:
       - "yes yes yes yes yes"
     altText: "The player won the game in 4 guesses."
     date: "2022-03-20"
+  - number: 275
+    score: 5
+    won: true
+    board:
+      - "⬛⬛🟨🟨⬛"
+      - "⬛🟨🟨⬛⬛"
+      - "⬛🟨🟩🟨⬛"
+      - "🟨⬛🟩⬛🟨"
+      - "🟩🟩🟩🟩🟩"
+    boardWords:
+      - "no no almost almost no"
+      - "no almost almost no no"
+      - "no almost yes almost no"
+      - "almost no yes no almost"
+      - "yes yes yes yes yes"
+    altText: "The player won the game in 5 guesses."
+    date: "2022-03-21"
