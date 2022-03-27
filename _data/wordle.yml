@@ -1,23 +1,23 @@
-totalPlayed: 6
-totalWon: 6
+totalPlayed: 7
+totalWon: 7
 totalWonPercent: "100"
-streakCurrent: 1
+streakCurrent: 2
 streakMax: 5
 distribution:
   1: 0
   2: 0
   3: 1
   4: 2
-  5: 2
+  5: 3
   6: 1
   X: 0
 distributionPercent:
   1: 0
   2: 0
-  3: 50
-  4: 100
+  3: 33.33333333333333
+  4: 66.66666666666666
   5: 100
-  6: 50
+  6: 33.33333333333333
   X: 0
 games:
   - number: 273
@@ -116,3 +116,20 @@ games:
       - "yes yes yes yes yes"
     altText: "The player won the game in 3 guesses."
     date: "2022-03-26"
+  - number: 280
+    score: 5
+    won: true
+    board:
+      - "⬛⬛⬛🟨⬛"
+      - "⬛⬛🟩⬛🟨"
+      - "🟩⬛🟩⬛🟩"
+      - "🟩⬛🟩⬛🟩"
+      - "🟩🟩🟩🟩🟩"
+    boardWords:
+      - "no no no almost no"
+      - "no no yes no almost"
+      - "yes no yes no yes"
+      - "yes no yes no yes"
+      - "yes yes yes yes yes"
+    altText: "The player won the game in 5 guesses."
+    date: "2022-03-27"
