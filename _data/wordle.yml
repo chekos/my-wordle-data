@@ -1,11 +1,11 @@
-totalPlayed: 9
-totalWon: 9
+totalPlayed: 10
+totalWon: 10
 totalWonPercent: "100"
 streakCurrent: 1
 streakMax: 5
 distribution:
   1: 0
-  2: 0
+  2: 1
   3: 1
   4: 2
   5: 4
@@ -13,7 +13,7 @@ distribution:
   X: 0
 distributionPercent:
   1: 0
-  2: 0
+  2: 25
   3: 25
   4: 50
   5: 100
@@ -169,3 +169,14 @@ games:
       - "yes yes yes yes yes"
     altText: "The player won the game in 6 guesses."
     date: "2022-08-05"
+  - number: 414
+    score: 2
+    won: true
+    board:
+      - "🟨🟩⬛⬛🟩"
+      - "🟩🟩🟩🟩🟩"
+    boardWords:
+      - "almost yes no no yes"
+      - "yes yes yes yes yes"
+    altText: "The player won the game in 2 guesses."
+    date: "2022-08-07"
